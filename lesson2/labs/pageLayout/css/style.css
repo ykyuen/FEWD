@@ -1,0 +1,20 @@
+body {
+	background: url('../images/pattern1.png');
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#header {
+	background-color: red;
+}
+
+#main {
+	background-color: green;
+}
+
+#footer {
+	background-color: blue;
+}
