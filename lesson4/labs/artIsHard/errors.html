@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>List of errors</title>
+</head>
+<body>
+	<h2>HTML Improvements</h2>
+	<ul>
+		<li>&lt;header&gt; The &lt;header&gt; element is being closed with a stray &lt;/div&gt; instead of a &lt;/header&gt;</li>
+		<li>&lt;img&gt; - The attribute is "src" not "scr". Also remove the closing &lt;/img&gt; tag on the &lt;img&gt; element.</li>
+		<li>Stylesheets - The stylesheets are included incorrectly </li>
+		<li>The &lt;h1&gt; and &lt;a&gt; should be nested as: &lt;h1&gt;&lt;a href="/"&gt;Art is Hard&lt;/a&gt;&lt;/h1&gt;</li>
+		<li>Deprecated HTML elements or attributes (index.html):</li>
+		<li>&lt;blink&gt; - Remove the &lt;blink&gt; tags (FYI for the instructor, this only works in Firefox... and probably IE) </li>
+		<li>Doctype - The doctype should be updated to &lt;!DOCTYPE html&gt;</li>
+		<li>&lt;center&gt; - Remove the &lt;center&gt; tags </li>
+		<li>Inline Styles - Remove the inline styles (replace in the style.css if necessary)</li>
+		<li>&nbsp; - Remove the &nbsp; ASCII characters. It's best not to use these, instead us CSS if you want indenting or padding </li>
+	</ul>
+
+	<h2>SEO Improvements to the HTML and file names</h2>
+	<ul>
+		<li>&lt;title&gt; - The &lt;title&gt; tag should be more descriptive and reflect the content. </li>
+		<li>For example, an improvement would be "Art is Hard: digital musings from Greenpoint, NYC" </li>
+		<li>Alt attribute - The &lt;img&gt; elements are missing alt attributes</li>
+		<li>File names - The image file names are horrible, "0.jpg" doesn't tell me anything about the img. </li>
+		<li>&lt;h1&gt; - There is no &lt;h1&gt; in this site. This should be "Art is Hard" </li>
+	</ul>
+
+
+
+	<h2>Two or three CSS errors:</h2>
+	<ul>
+		<li>-	CSS Background included is wrong. In the CSS, the body background "images/hipster-line.gif" isn't being included correctly. It should be "../images/hipster-line.gif"</li>
+		<li>-	header h2 { color: #; }...  is missing a color value </li>
+		<li>-	header h2 { font-family } could use a fall back or serif </li>
+	</ul>
+</body>
+</html>
