@@ -1,0 +1,27 @@
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	background-image: url(../images/socialNav.png);
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+}
+
+.linkedin a { background-position: 0px 64px; }
+.twitter a { background-position: -60px 64px; }
+.facebook a { background-position: -120px 64px; }
+.rss a { background-position: -180px 64px; }
+
+.linkedin a:hover { background-position: 0px 0px; }
+.twitter a:hover { background-position: -60px 0px; }
+.facebook a:hover { background-position: -120px 0px; }
+.rss a:hover { background-position: -180px 0px; }
+
+li a {
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+}
