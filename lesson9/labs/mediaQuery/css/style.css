@@ -36,4 +36,15 @@ a:hover {
 .clear {
 	clear: both;
 }
+
+@media only screen and (min-width: 768px) {	
+
+	.span-one-third {
+		width: 30%;
+	} 
 	
+	h1 {
+		 background: pink;
+	}
+
+}
