@@ -1,18 +1,25 @@
 /* CSS Box Aesthetics */
 
 .box {
-	
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	margin: 12px;
+	float: left;
+	z-index: 10;
 }
 
 .bgimg1 {
-	
-	
 	/*
 	background-image:url('myimage.gif');
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	*/
+	border-top-left-radius: 2em 0.5em;
+		border-top-right-radius: 1em 3em;
+		border-bottom-right-radius: 4em 0.5em;
+		border-bottom-left-radius: 1em 3em;
 }
 
 .bgimg2 {
@@ -52,10 +59,9 @@
 body{
 	
 	
-	/*
+	
 	background-attachment:fixed;
 	background-attachment:scroll;
-	*/
 }
 
 .bgimg5 {
@@ -88,7 +94,8 @@ body{
 	-moz-opacity:0.2; /* Firefox */
 	-khtml-opacity: 0.2; /* Safari, Chrome */
 	
-	opacity: 0.2; /* CSS 3 */
+/*	opacity: 0.5; /* CSS 3 */	
+	background-color: rgba(33,243,157,0.4);
 }
 
 .rounded {
@@ -101,9 +108,9 @@ body{
 .shadow {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#888888')"; /* For IE 8 */
 	-moz-box-shadow: 5px 5px 20px #888; /* Firefox */
-	-webkit-box-shadow: 5px 5px 20px #888; /* Safari, Chrome */
+	-webkit-box-shadow: -5px -5px 20px #888; /* Safari, Chrome */
 	
-	box-shadow: 5px 5px 20px #888; /* CSS 3 */
+	box-shadow: inset 0px 0px 30px #CCC; /* CSS 3 */
 	
 	/* 
 	see info at: http://www.css3.info/preview/box-shadow/
