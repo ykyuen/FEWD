@@ -3,7 +3,7 @@ $(document).ready(function(){
 	/* LETS USE FUNCTIONS TO MAKE AN INSTANCE OF INTERACTING WITH THE DOM REPEATABLE */
 	
 	//first I want to fade out all the fruit pictures.
-	$('#gallery img').fadeTo(1000,0.2); //fadeTo(delay in miliseconds, opacity)
+	$('#gallery img').fadeTo(1000,0.2).fadeTo(1000,1).fadeTo(1000,0.2).fadeTo(1000,1); //fadeTo(delay in miliseconds, opacity)
 	
 	//next I want to create a function that will only run when someone hovers over a fruit image.
 	function mouseOn(){
