@@ -8,7 +8,7 @@
  * Question 1
  * Create a 'for' loop that populates an array with the numbers 1 through 10 
  */
-   var myArray = [];
+var myArray = [];
 
 
 
