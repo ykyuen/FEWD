@@ -37,7 +37,7 @@ a:hover {
 	clear: both;
 }
 
-@media only screen and (min-width: 768px) and (min-device-width) {	
+@media only screen and (min-width: 768px) and (min-device-width: 768px) {	
 
 	.span-one-third {
 		width: 30%;
