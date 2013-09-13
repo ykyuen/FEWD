@@ -1,5 +1,10 @@
 [
   {
+    "name": "New Apple",
+    "color": "red",
+    "origin": "U.S."
+  },
+  {
     "name": "Apple",
     "color": "red",
     "origin": "U.S."

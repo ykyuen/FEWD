@@ -1,4 +1,5 @@
-/*Javascript: Advanced Functions
+/**
+Javascript: Advanced Functions
 
 This example is a little more advanced.
 
@@ -19,9 +20,54 @@ Hint: Research the .click(), .text() in jQuery documentation
 
 var total = 0;
 
-$(function(){
-
-	//$(box to be updated).click(function call);
-
-
+$('#red').click(function(){
+  $('#out').css('background-color', 'red');
 });
+
+$('#blue').click(function(){
+  $('#out').css('background-color', 'blue');
+});
+
+
+
+// Approach 1
+$(function(){
+  $('#a10').click(function(){ update(10); });
+  $('#a20').click(function(){ update(20); });
+  $('#a30').click(function(){ update(30); });
+  $('#n10').click(function(){ update(-10); });
+  $('#n20').click(function(){ update(-20); });
+  $('#n30').click(function(){ update(-30); });
+});
+
+function update(value) {
+  total = total + value;
+  $('#out').text(total);
+}
+
+
+// Approach 2
+// $(function(){
+//   $('#a10').on('click', {value: 10}, update);
+//   $('#a20').on('click', {value: 20}, update);
+//   $('#a30').on('click', {value: 30}, update);
+//   $('#n10').on('click', {value: -10}, update);
+//   $('#n20').on('click', {value: -20}, update);
+//   $('#n30').on('click', {value: -30}, update);
+// });
+
+// function update(event) {
+//   total = total + event.data.value;
+//   $('#out').text(total);
+// }
+
+
+// Approach 3
+// $(function(){
+//   $('#app').on('click','.mathrow > div', update) 
+// });
+
+// function update(event) {
+//   total = total + parseInt($(this).text());
+//   $('#out').text(total);
+// }
